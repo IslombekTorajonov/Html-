@@ -1,0 +1,253 @@
+.nav-link{
+    margin-left: 30px;
+
+}
+.nav-link:hover{
+	background-color: #b59879;
+	background: active
+	
+}
+.logo{
+	width: 120px;
+	margin-left: -200px
+}
+#navbar{
+  position: sticky;
+  top: 0px;
+  z-index:1
+}
+.call{
+	width: 360px;
+	height: 90px;
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 100px;
+	background: black;
+	transition: 0.8s
+}
+.call:hover{
+	background: #b59879;
+	transition: 1s
+}
+.calloq{
+	width: 280px;
+	margin-left: 78px;
+	margin-top: 2px;
+	position: absolute;
+	height: 87px;
+	background: white
+}
+.callimg{
+	margin-top: 22px;
+	margin-left: 15px;
+	position: absolute;
+
+}
+.call1{
+	width: 360px;
+	height: 90px;
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 500px;
+	background: black;
+	transition: 0.8s
+}
+.call1:hover{
+	background: #b59879;
+	transition: 1s
+}
+.calloq1{
+	width: 280px;
+	margin-left: 78px;
+	margin-top: 2px;
+	position: absolute;
+	height: 87px;
+	background: white
+}
+.callimg1{
+	margin-top: 22px;
+	margin-left: 15px;
+	position: absolute;
+
+}
+.call2{
+	width: 360px;
+	height: 90px;
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 900px;
+	background: black;
+	transition: 0.8s
+}
+.call2:hover{
+	background: #b59879;
+	transition: 1s
+}
+.calloq2{
+	width: 280px;
+	margin-left: 78px;
+	margin-top: 2px;
+	position: absolute;
+	height: 87px;
+	background: white
+}
+.callimg2{
+	margin-top: 22px;
+	margin-left: 5px;
+	position: absolute;
+
+}
+.h4i{
+	margin-top: 100px;margin-left: 50px
+}
+.lorem{
+	width: 330px;
+	margin-left: 50px;
+	margin-top: 40px
+
+}
+.input{
+	width: 100%;
+	height: 280px
+}
+.wpcf7-form-control{
+	width: 350px;
+	position: absolute;
+	margin-top:-160px;
+	margin-left: 450px
+}
+.last{
+	width: 350px;
+	margin-left: 820px;
+	position: absolute;
+	margin-top: -160px
+}
+.last2{
+	position: absolute;
+	width: 350px;
+	margin-left:820px;
+	margin-top: -110px
+}
+.first2{
+	position: absolute;
+	width: 350px;
+	margin-left: 450px;
+	margin-top: -110px
+}
+.message{
+	width: 720px;
+	height: 200px;
+	margin-top: -50px;
+	margin-left: 455px
+}
+.contactimg1{
+	width: 1300px;
+	margin-left: 50px;
+	margin-top: 100px
+}
+.look{
+	width: 100%;
+	height: 70px;
+	background: #b59879;
+	margin-top: 0px
+}
+.looking{
+	margin-left: 150px;
+position: absolute;
+margin-top: 20px;
+display: block;
+}
+.button{
+	margin-left: 850px;
+	margin-top:18px;
+	box-shadow: 0 0 0 1px black
+}
+
+
+@media only screen and (max-width: 600px){
+	.contactimg1{
+	width:500px;
+	margin-left: -70px;
+	margin-top: 400px
+}
+	.lorem{
+	width: 330px;
+	margin-left: 20px;
+	margin-top: 40px
+
+}
+	.logo{
+		margin-left: 100px
+	}
+	
+	.button{
+	margin-left: 85px;
+	margin-top:18px;
+	box-shadow: 0 0 0 1px black
+}
+.looking{
+display: none;
+}
+	.h4i{
+		margin-top: 350px
+	}
+	.call{
+		width: 300px;
+		margin-left: 20px;
+		margin-top: 10px
+	}
+	.calloq{
+		width: 220px
+	}
+	.form-control{
+		margin-top: 70px;
+		margin-left: -10px
+	}
+	.call1{
+		width: 300px;
+		margin-top: 110px;
+		margin-left: 20px
+	}
+	.calloq1{
+		width: 220px
+	}
+	.call2{
+		width: 300px;
+		margin-top: 213px;
+		margin-left: 20px
+	}
+	.calloq2{
+		width: 220px
+	}
+	.wpcf7-form-control{
+	width: 300px;
+	position: absolute;
+	margin-top:-0px;
+	margin-left: 20px
+}
+.last{
+	width: 300px;
+	margin-left: 20px;
+	position: absolute;
+	margin-top: 50px
+}
+.last2{
+	position: absolute;
+	width: 300px;
+	margin-left:20px;
+	margin-top: 150px
+}
+.first2{
+	position: absolute;
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 100px
+}
+.message{
+	width: 300px;
+	height: 200px;
+	margin-top: 200px;
+	margin-left: 20px
+}
+
+}

@@ -1,0 +1,124 @@
+.nav-link{
+    margin-left: 30px;
+
+}
+.nav-link:hover{
+	background-color: #b59879;
+	background: active
+	
+}
+.logo{
+	width: 120px;
+	margin-left: -200px
+}
+.onebox{
+	width: 800px;
+	margin-top: 100px;
+	margin-left: 100px;
+	overflow: hidden;
+}
+#navbar{
+  position: sticky;
+  top: 0px;
+  z-index:1
+}
+.boximg1{
+	width: 800px;
+	transition: 0.6s
+
+}
+.boximg1:hover{
+	transform: scale(1.1);transition: 0.6s
+}
+.write{
+	margin-top: -550px;
+	margin-left: 1000px
+}
+.h5blog{
+	margin-top: 290px;
+	margin-left: 100px
+}
+.onebox2{
+	width: 800px;
+	margin-top: 100px;
+	margin-left: 100px;
+	overflow: hidden;
+}
+.boximg2{
+	width: 800px;
+	transition: 0.6s
+
+}
+.boximg2:hover{
+	transform: scale(1.1);transition: 0.6s
+}
+
+.h5blog2{
+	margin-top: 0px;
+	margin-left: 100px
+}
+.p{
+	width: 700px;
+	margin-left: 100px;
+	margin-top: 30px
+}
+.Read{
+	margin-left: 100px
+}
+@media only screen and (max-width: 600px){
+	.Read{
+	margin-left: 50px
+}
+	.p{
+	width: 313px;
+	margin-left: 30px;
+	margin-top: 30px
+}
+	.h5blog2{
+		font-size: 15px;
+	margin-top: 0px;
+	margin-left: 35px
+}
+	.h5blog{
+		font-size: 15px;
+	margin-top: -0px;
+	margin-left: 35px
+}
+
+	.form-control{
+		margin-top: 170px;
+		margin-left: -0px
+	}
+	.onebox{
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 40px;
+
+	overflow: hidden;
+}
+.boximg1{
+	width: 300px;
+	transition: 0.6s;
+	margin-top: 280px
+
+}
+	.onebox2{
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 40px;
+
+	overflow: hidden;
+}
+.boximg2{
+	width: 300px;
+	transition: 0.6s
+
+}
+.write{
+	margin-top: -500px;
+	position: absolute;
+	margin-left: 40px
+}
+
+
+}
