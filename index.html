@@ -1,153 +1,113 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+<!DOCTYPE html>
+<html lang="en">
 
-
-<html>
 <head>
-
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abdurakhmon Rashidov">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" integrity="sha512-t38vG/f94E72wz6pCsuuhcOPJlHKwPy+PY+n1+tJFzdte3hsIgYE7iEpgg/StngunGszVMrRfvwZinrza0vMTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>UI/UX - landing page</title>
 </head>
+
 <body>
-<div class="container">
-<h3 class=" text-center">Messaging</h3>
-<div class="messaging">
-      <div class="inbox_msg">
-        <div class="inbox_people">
-          <div class="headind_srch">
-            <div class="recent_heading">
-              <h4>Recent</h4>
-            </div>
-            <div class="srch_bar">
-              <div class="stylish-input-group">
-                <input type="text" class="search-bar"  placeholder="Search" >
-                <span class="input-group-addon">
-                <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
-                </span> </div>
-            </div>
-          </div>
-          <div class="inbox_chat">
-            <div class="chat_list active_chat">
-              <div class="chat_people">
-                <div class="chat_img"> <img src="ch.png" alt="sunil"> </div>
-                <div class="chat_ib">
-                  <h5>Javlonbek<span class="chat_date">Sep 25</span></h5>
-                  <p></p>
+
+    <div id="fullpage">
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="toRight">
+                            <h1>Что такое <br> <span id="app"></span></h1>
+                            <p>Понятиям UX и UI уже около 70 лет, но некоторые дизайнеры всё ещё путают их. Рассказываем, что означают аббревиатуры и как освоить эти профессии.</p>
+                            <br>
+                            <a href="#" class="btn waves-effect  z-depth-3 btn-large ">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="toRight">
+                            <img onmouseover="scale()" src="img/job2.png" class="responsive-img" alt="">
+                        </div>
+
+                    </div>
+
                 </div>
-              </div>
             </div>
-            <div class="chat_list">
-              <div class="chat_people">
-                <div class="chat_img"> <img src="ch.png" alt="sunil"> </div>
-                <div class="chat_ib">
-                  <h5>Javlonbek<span class="chat_date">Ismoill</span></h5>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-            <div class="chat_list">
-              <div class="chat_people">
-                <div class="chat_img"> <img src="ch.png" alt="sunil"> </div>
-                <div class="chat_ib">
-                  <h5>Javlonbek <span class="chat_date">May 20</span></h5>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-            <div class="chat_list">
-              <div class="chat_people">
-                <div class="chat_img"> <img src="ch.png" alt="sunil"> </div>
-                <div class="chat_ib">
-                  <h5>Javlonbek<span class="chat_date">March 05</span></h5>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-            <div class="chat_list">
-              <div class="chat_people">
-                <div class="chat_img"> <img src="ch.png" alt="sunil"> </div>
-                <div class="chat_ib">
-                  <h5>Javlonbek <span class="chat_date">Dec 25</span></h5>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-            <div class="chat_list">
-              <div class="chat_people">
-                <div class="chat_img"> <img src="ch.png" alt="sunil"> </div>
-                <div class="chat_ib">
-                  <h5>Javlonbek <span class="chat_date">Aug 25</span></h5>
-                  <p></p>
-                </div>
-              </div>
-            </div>
-            <div class="chat_list">
-              <div class="chat_people">
-                <div class="chat_img"> <img src="ch.png" alt="sunil"> </div>
-                <div class="chat_ib">
-                  <h5>Javlonbek  <span class="chat_date">Oct 27</span></h5>
-                  <p> <p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-        <div class="mesgs">
-          <div class="msg_history">
-            <div class="incoming_msg">
-              <div class="incoming_msg_img"> <img src="ch.png" alt="sunil"> </div>
-              <div class="received_msg">
-                <div class="received_withd_msg">
-                  <p>Test which is a new approach to have all
-                    solutions</p>
-                  <span class="time_date"> 11:01 AM    |    June 9</span></div>
-              </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="toLeft">
+                            <img onmouseover="scale()" src="img/job.png" class="left responsive-img" alt="">
+                        </div>
+
+                    </div>
+                    <!-- <div class="col s12 m1"></div> -->
+                    <div class="col s12 m6">
+                        <div class="toLeft">
+                            <h1>Что такое UX-дизайн</h1>
+                            <p>UX (англ. user experience) дословно означает «опыт пользователя». В более широком смысле это понятие про весь опыт, который получает пользователь при взаимодействии с сайтом или приложением.</p>
+                            <br>
+                            <a href="#" class="btn waves-effect  z-depth-3 btn-large ">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="outgoing_msg">
-              <div class="sent_msg">
-                <p>Test which is a new approach to have all
-                  solutions</p>
-                <span class="time_date"> 11:01 AM    |    June 9</span> </div>
-            </div>
-            <div class="incoming_msg">
-              <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-              <div class="received_msg">
-                <div class="received_withd_msg">
-                  <p>Test, which is a new approach to have</p>
-                  <span class="time_date"> 11:01 AM    |    Yesterday</span></div>
-              </div>
-            </div>
-            <div class="outgoing_msg">
-              <div class="sent_msg">
-                <p>Apollo University, Delhi, India Test</p>
-                <span class="time_date"> 11:01 AM    |    Today</span> </div>
-            </div>
-            <div class="incoming_msg">
-              <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-              <div class="received_msg">
-                <div class="received_withd_msg">
-                  <p>We work directly with our designers and suppliers,
-                    and sell direct to you, which means quality, exclusive
-                    products, at a price anyone can afford.</p>
-                  <span class="time_date"> 11:01 AM    |    Today</span></div>
-              </div>
-            </div>
-          </div>
-          <div class="type_msg">
-            <div class="input_msg_write">
-              <input type="text" class="write_msg" placeholder="Type a message" />
-              <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
-            </div>
-          </div>
         </div>
-      </div>
-      
-      
-      <p class="text-center top_spac"> Design by <a target="_blank" href="https://www.linkedin.com/in/sunil-rajput-nattho-singh/">Sunil Rajput</a></p>
-      
-    </div></div>
-    </body>
-    </html>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="toLeft">
+                            <h1>Что такое UI-дизайн</h1>
+                            <p>UI (англ. user interface) переводится как «пользовательский интерфейс». И необязательно только графический: тактильный, голосовой или звуковой. Мы рассмотрим только графический интерфейс, так как дизайнеры в основном работают
+                                с ним.</p>
+                            <br>
+                            <a href="#" class="btn waves-effect  z-depth-3 btn-large ">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 offset-s1">
+                        <div class="toLeft">
+                            <img onmouseover="scale()" src="img/job1.png" class="left responsive-img" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6 offset-s1">
+                        <div class="toLeft">
+                            <img onmouseover="scale()" src="img/job3.png" class="left responsive-img" alt="">
+                        </div>
+
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="toLeft">
+                            <h1>Требования к качественному UX/UI-дизайну
+                            </h1>
+                            <p>UI (англ. user interface) переводится как «пользовательский интерфейс». И необязательно только графический: тактильный, голосовой или звуковой. Мы рассмотрим только графический интерфейс, так как дизайнеры в основном работают
+                                с ним.</p>
+                            <br>
+                            <a href="#" class="btn waves-effect  z-depth-3 btn-large ">Узнать больше</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.18.2/core.js" integrity="sha512-kvRAEzU74MiFnY9BeeLz99N4jCgf6RpN3zNAkwzqysueZQtTbFSyBrfghW+2DLEOs6YiIq+6tKtNi6PyZvAhfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js"></script>
+        <script src="js/app.js"></script>
+</body>
+
+</html>
