@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-blue {
+  background: #3a51cc;
+}
+
+.btn-nav {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.btn-nav:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar-nav {
+  margin-right: auto;
+  width: 60%;
+  margin-left: 10%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.footer{
+  width: 100%;
+  height: 105px;
+  margin-top: 700px;
+  background-color: black;
+}
+.bi{
+  width: 400px;
+  height: 70px;
+}
+.p{
+  font-size: 25px;
+  margin-top: 80px;
+  margin-left: 100px
+}
+.input{
+  width: 300px;
+  height: 30px;
+  margin-left: 100px;
+  margin-top: -10px
+
+}
+.button{
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 5px
+}
+.lorem{
+  font-size: 13px;
+  width: 500px;
+  margin-left: 700px;
+  margin-top: -40px
+}
+.p1{
+  margin-left: 100px;
+  margin-top: 80px
+}
+.hr2{
+  margin-top: -19px
+}
+.hr1{
+  display: none;
+}
+.p2{
+  margin-left: 750px;
+  position: absolute;
+  margin-top: -68px
+}
+.select{
+  width: 540px;
+  height: 45px;
+  margin-left: 80px;
+  margin-top: -28px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.m1{
+  margin-left: 100px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.hr3{
+  width: 540px;
+  margin-left: 80px
+}
+.m2{
+  margin-left: 100px;
+  cursor: pointer;
+}
+.m3{
+  margin-left: 100px;
+  cursor: pointer;
+}
+.m4{
+  margin-left: 100px;
+  cursor: pointer;
+}
+.m5{
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+  .p{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 
+  }
+  .input{
+  position: absolute;
+  width: 200px;
+  margin-left: 30px;
+  margin-top: -5px
+}
+  .button{
+    display: block;
+    position: absolute;
+    margin-left: 240px
+  }
+  .lorem{
+    font-size: 10px;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 100px
+  }
+  .hr2{
+    display: none;
+  }
+  .p2{
+    margin-left: 200px;
+    margin-top: -46px;
+    display: none;
+  }
+  .p1{
+    font-size: 20px;
+    margin-left: 143px;
+    margin-top: 20px
+  }
+  .select{
+    width: 100%;
+    margin-left: 0px
+  }
+  .m1{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 10px
+  }
+  .hr3{
+    width: 260px
+  }
+  .m2{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 10px
+  }
+  .m3{
+    font-size: 15px;
+    margin-left: 167px;
+    margin-top: 10px
+  }
+  .m4{
+    font-size: 20px;
+    margin-left: 95px;
+    margin-top: 10px
+  }
+  .m5{
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 10px
+  }
+}
